@@ -7,12 +7,12 @@
 | ------ | ------ |
 |`archive.php`| 控制存档、分类、日期的输出页面。 |
 |`assets/css/bootstrap.css`| Bootstrap框架CSS文件 |
-|`assets/images/showcase/jpg`| 首页背景文件 |
+|`assets/images/showcase.jpg`| 首页背景文件 |
 |`assets/js/bootstrap.js`| Bootstrap框架JS文件 |
 |`comments.php`| 用来管理如何显示评论 |
-|`content-aside.php`| 日志文章详情页面的展示模版，配合`single.php`使用 |
-|`content-gallery.php`| 相册文章详情页面的展示模版，配合`single.php`使用 |
-|`content.php`| 标准文章详情页面的展示模版，配合`single.php`使用 |
+|`template-parts/content-aside.php`| 日志文章详情页面的展示模版 |
+|`template-parts/content-gallery.php`| 相册文章详情页面的展示模版 |
+|`template-parts/content.php`| 标准文章详情页面的展示模版 |
 |`footer.php`| 主题尾部，一般是用来输出页脚信息的，比如放些模版作者，版权信息之类。|
 |`front-page.php`|首页模板，仅用于开启 静态首页 时|
 |`functions.php`| 定义函数,非常重要。 |
