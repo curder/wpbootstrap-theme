@@ -1,4 +1,5 @@
 <?php
+// 首页自定义信息
 function wpb_customize_register($wp_customize)
 {
     // Showcase Section
@@ -29,7 +30,6 @@ function wpb_customize_register($wp_customize)
         'priority' => 2,
     ));
 
-
     $wp_customize->add_setting('showcase_text', array(
         'default' => _x('Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam', 'wpbootstrap'),
         'type' => 'theme_mod'
@@ -59,8 +59,6 @@ function wpb_customize_register($wp_customize)
         'section' => 'showcase',
         'priority' => 5,
     ));
-
-
 }
 
 add_action('customize_register', 'wpb_customize_register');

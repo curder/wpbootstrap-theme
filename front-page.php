@@ -4,7 +4,7 @@
     <div class="container">
         <h1><?= get_theme_mod('showcase_heading', 'Custom Bootstrap Wordpress Theme') ?></h1>
         <p><?= get_theme_mod('showcase_text', 'Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam') ?></p>
-        <a class="btn btn-primary btn-lg"><?= get_theme_mod('showcase_button_text', 'Get Started') ?></a>
+        <a href="<?= get_theme_mod('showcase_button_url', 'http://test.com'); ?>" class="btn btn-primary btn-lg"><?= get_theme_mod('showcase_button_text', 'Get Started') ?></a>
     </div>
 </section>
 

@@ -1,7 +1,7 @@
 <?php
 // Register Nav Walker Class
 // https://github.com/twittem/wp-bootstrap-navwalker
-require_once get_template_directory() . '/wp-bootstrap-navwalker.php';
+require_once get_template_directory() . '/inc/vendors/wp-bootstrap-navwalker.php';
 // Customizer File
 require get_template_directory(). '/inc/customizer.php';
 
