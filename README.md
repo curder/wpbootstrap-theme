@@ -23,4 +23,5 @@
 |`screenshot.png`|主题后台预览图片|
 |`single.php`|内容页，当点击一篇文章后，所展示的页面内容由这个文件来控制。|
 |`style.css`|主题样式，所有所有页面的具体表现样式都由这个文件来控制。|
+
 具体内容请查阅这里：[主题开发](https://codex.wordpress.org/zh-cn:%E4%B8%BB%E9%A2%98%E5%BC%80%E5%8F%91)
